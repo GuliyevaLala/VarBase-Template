@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    
+}
+body{
+    background-color: antiquewhite;
+}
+.header-container{
+    width: 100vw;
+    height: auto;
+    background-color: rgb(216, 226, 223);
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 25px;
+    box-shadow: 0 8px 6px -6px black;
+
+
+}
+.navigation{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav-opt{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-opt li{
+    margin-left:  25px;
+    color: rgb(51, 51, 240);
+    font-weight: 700;
+    margin-top: 15px;
+    margin-bottom: 35px;
+
+}
+.head .logo img{
+ width: 35px;
+ 
+}
+.logo-name{
+    display: inline-block;
+}
+.head{
+    display: flex;
+}
+.head .logo-name p {
+    font-weight: 700;
+    color: black;
+    font-size: 35px;
+    text-transform: lowercase;
+    margin-left: 35px;
+
+}
+.head .logo-name span{
+    font-weight: 500;
+    color: black;
+    font-size: 35px;
+    text-transform: lowercase;
+}
+
+#slider{
+
+}
+
+.slider-image{
+    background-image: url("../assests/img/assassins_creed_mirage-wallpaper-1280x800.jpg");
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+.slider-title{
+  font-size: 35px;
+  font-weight: 700;
+  color: aliceblue;
+  position: absolute;
+  padding-top: 250px;
+  padding-left: 150px;
+
+}
+#cards{
+   
+    
+}
+.card{
+    display: flex;
+    justify-content: space-around;
+}
+.card-box{
+    margin-top: 150px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+    width: 300px;
+}
+.card-image{
+    background-color: blanchedalmond;
+    border-radius: 28px;
+    width: 50px;
+    height: 50px;
+    padding: 15px;
+    margin-left: 100px;
+
+
+}
